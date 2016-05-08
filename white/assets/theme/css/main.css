@@ -1,0 +1,33 @@
+/*Opacity of picture*/
+.my-profile .my-pict .overfly {
+    background: rgba(255, 255, 255, 0.6);
+}
+
+/*Centering Navbar*/
+.col-md-6 {
+	text-align: center;
+}
+
+.fa.fa-phone, .fa.fa-envelope, .fa.fa-location-arrow{
+	margin-left: 35px;
+}
+
+/*Skills*/
+
+/*Experience & Education*/
+
+
+
+
+
+/*testimonials*/
+
+.box-testimonial h4{
+	font-style: italic;
+	line-height: 1.3;
+}
+
+#quote1, #quote2{
+	font-style: italic;
+	font-size:medium;
+}
