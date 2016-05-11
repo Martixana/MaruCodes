@@ -7,9 +7,15 @@
 .col-md-6 {
 	text-align: center;
 }
-
-.fa.fa-phone, .fa.fa-envelope, .fa.fa-location-arrow{
-	margin-left: 35px;
+/*Contact Info*/
+.inner-text{
+	display:inline-block;
+	margin-left:none;
+	margin-right:5px;
+	padding: none;
+}
+.inner-text > h5{
+	font-size: small;
 }
 
 /*Skills*/
