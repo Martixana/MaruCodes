@@ -1,3 +1,16 @@
+/*Box Border Color - "Lets make Magic"*/
+.box-line{
+	border-color: #009970;
+}
+/*JS Word Animation*/
+#animation{
+	color:#009970;
+}
+/*Fontawesome Icons*/
+.fa{
+	color:#009970;
+}
+
 /*Opacity of picture*/
 .my-profile .my-pict .overfly {
     background: rgba(255, 255, 255, 0.6);
@@ -7,18 +20,36 @@
 .col-md-6 {
 	text-align: center;
 }
+
 /*Contact Info*/
-.inner-text{
-	display:inline-block;
-	margin-left:none;
-	margin-right:5px;
-	padding: none;
+
+.bg-dark{
+ padding-top: 30px;
+ padding-bottom: 20px;
+ font-size: 11px;
 }
+
+.my-profile .my-desc .inner-text {
+	display:inline-block;
+    max-width: 585px;
+    padding:25px;
+    }
+
 .inner-text > h5{
 	font-size: small;
 }
 
 /*Skills*/
+
+.container-medium {
+    max-width: 100%;
+    padding-right: 0px;
+    }
+
+#skills, .list-education{
+	z-index: 4;
+	background-color: white;
+}
 
 /*Experience & Education*/
 
