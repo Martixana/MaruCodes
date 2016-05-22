@@ -10,6 +10,8 @@
 .fa{
 	color:#009970;
 	font-size: medium;
+	padding-left: 4px;
+	padding-right: 4px;
 }
 
 /*Opacity of picture*/
@@ -31,16 +33,21 @@
 
 /*Intro Text*/
 #intro_text{
-	padding-top: 70px;
-	padding-bottom: 70px;
+	padding-top: 60px;
+	padding-bottom: 60px;
 	padding-left: 70px;
+	text-align: justify;
 }
-/*Contact Info*/
+/*Contact Info & Social Media*/
 
 .bg-dark{
  padding-top: 10px;
  padding-bottom: 10px;
  font-size: 12px;
+}
+
+.inner-text > h5{
+	font-size: medium;
 }
 
 .my-profile .my-desc .inner-text {
@@ -49,15 +56,12 @@
     padding:25px;
     }
 
-.inner-text > h5{
-	font-size: medium;
-}
-
 /*Skills*/
 
 .container-medium {
     max-width: 100%;
     padding-right: 0px;
+    padding-left: 0px;
     }
 
 #skills, .list-education{
