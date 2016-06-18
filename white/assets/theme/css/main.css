@@ -9,7 +9,7 @@
 /*Fontawesome Icons*/
 .fa{
 	color:#009970;
-	font-size: medium;
+	font-size: large;
 	padding-left: 4px;
 	padding-right: 4px;
 }
@@ -38,8 +38,8 @@
 	padding-left: 70px;
 	text-align: justify;
 }
-/*Contact Info & Social Media*/
 
+/*Contact Info & Social Media*/
 .bg-dark{
  padding-top: 10px;
  padding-bottom: 10px;
@@ -48,6 +48,10 @@
 
 .inner-text > h5{
 	font-size: medium;
+}
+.sm_profiles{
+	position: relative;
+	max-height: -30px;
 }
 
 .my-profile .my-desc .inner-text {
