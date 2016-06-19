@@ -18,7 +18,17 @@
 .my-profile .my-pict .overfly {
     background: rgba(255, 255, 255, 0.6);
 }
+/*Greeting on Picture*/
 
+.my-profile .my-pict .overfly .text-botttom{
+	text-align: left;
+}
+
+h3 {
+    letter-spacing: 2px;
+    font-size: 1.3em;
+}
+    
 /* Navbar*/
 .col-md-6 {
 	text-align: center;
@@ -33,16 +43,18 @@
 
 /*Intro Text*/
 #intro_text{
-	padding-top: 60px;
-	padding-bottom: 60px;
-	padding-left: 70px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-left: 10px;
+	margin: 45px;
+	border-style: solid;
+	border-width: 3px;
+	border-color:#009970;
 	text-align: justify;
 }
 
 /*Contact Info & Social Media*/
 .bg-dark{
- padding-top: 10px;
- padding-bottom: 10px;
  font-size: 12px;
 }
 
