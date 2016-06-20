@@ -43,9 +43,9 @@ h3 {
 
 /*Intro Text*/
 #intro_text{
-	padding-top: 10px;
-	padding-bottom: 10px;
-	padding-left: 10px;
+	padding-top: 25px;
+	padding-bottom: 25px;
+	padding-left: 25px;
 	margin: 45px;
 	border-style: solid;
 	border-width: 3px;
@@ -63,9 +63,14 @@ h3 {
 }
 .sm_profiles{
 	position: relative;
-	max-height: -30px;
+	top: -45px;
 }
-
+#contact_ttl{
+	padding-left: 32px;
+}
+.xtra_social{
+	text-align: center;
+}
 .my-profile .my-desc .inner-text {
 	display:inline-block;
     max-width: 585px;
@@ -94,11 +99,12 @@ h3 {
 /*testimonials*/
 
 .lrgQuote{
-	font-style: italic;
+	font-style: normal;
 	font-size:medium;
+	min-height: 260px;
 }
 #quote1, #quote2, #quote3{
-	font-style: normal;
+	font-style: italic;
 	font-size: large;
 	letter-spacing: 1.6px;
 	line-height: 1.3;
