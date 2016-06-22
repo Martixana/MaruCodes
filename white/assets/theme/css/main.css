@@ -66,11 +66,15 @@ h3 {
 	top: -45px;
 }
 #contact_ttl{
-	padding-left: 32px;
+	padding-left: 40px;
 }
 .xtra_social{
 	text-align: center;
 }
+#email{
+	color:#ebebeb;
+}
+
 .my-profile .my-desc .inner-text {
 	display:inline-block;
     max-width: 585px;
