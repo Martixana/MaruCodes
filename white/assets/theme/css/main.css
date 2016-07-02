@@ -127,6 +127,8 @@ h3 {
 @media screen and (max-width:1260px){
 	.inner-text > h5 {
     font-size: 13px;
+    width: 80%;
+    margin: auto;
 }
 	.bg-dark {
     text-align: center;
@@ -151,9 +153,23 @@ h3 {
     top: 0px;
 }
  @media screen and (max-width: 880px){
+ 	#intro_text{
+		width: 85%;
+		margin-left:auto;
+		margin-right:auto;
+		margin-top:30px;
+		margin-bottom: 30px;
+	}
  	#gameFace {
-    margin-left: 0px;
+    	width:50%;
+    	margin: auto;
+    	text-align: center;
 }
+	.inner-text{
+		width:50%;
+		margin:auto;
+		text-align: center;
+	}
  }    
 
 @media screen and (max-width: 638px){
@@ -161,6 +177,7 @@ h3 {
 	#intro_text{
 		width:85%;
 		text-align:center;
+		margin: auto;
 }
 	.my-profile .my-desc .inner-text{
   	width: 100%;
@@ -182,12 +199,59 @@ h3 {
 		max-width:95%;
 	}
 }
+@media screen and (max-width:565px){
+	.largQuote{
+		min-height:300px;
+	}
+}
 
 @media screen and (max-width: 500px){
 	#intro_text{
-		margin-left: 35px;
+		width: 85%;
+		margin-left:auto;
+		margin-right:auto;
+		margin-top:30px;
+		margin-bottom: 30px;
 	}
 	.lrgQuote{
 		font-size: 14px;
+	}
+	.my-profile .my-pict .overfly .text-botttom {
+    	text-align: center;
+    }
+    .box-testimonial{
+    	width:80%;
+    	margin-left: auto;
+    	margin-right: auto;
+    	font-size: 80%;
+    	min-height: 485px;
+    }
+    #quote1, #quote2, #quote3 {
+		text-size: 60%;
+	}
+}
+
+@media screen and (max-width: 450px){
+	#gameFace {
+    	width:50%;
+    	margin: auto;
+    	text-align: center;
+    }
+	.box-testimonial{
+    	width:80%;
+    	margin-left: auto;
+    	margin-right: auto;
+    	font-size: 80%;
+    	min-height: 485px;
+    }
+
+	#quote1, #quote2, #quote3 {
+		text-size: 60%;
+	}
+	.box-work {
+		margin-left: auto;
+		margin-right: auto;
+    	margin-bottom: 10px;
+    	width: 90%;   
 	}
 }
