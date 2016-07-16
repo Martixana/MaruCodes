@@ -286,4 +286,7 @@ h3 {
 	#quote1, #quote2, #quote3 {
 		display: none;
 	}
+	.lrgQuote{
+		min-height: 300px;
+	}
 }
