@@ -258,7 +258,11 @@ h3 {
 	#gameFace {
     	width:50%;
     	margin: auto;
+    	padding-bottom: 20px;
     	text-align: center;
+    }
+    #contact_section{
+    	padding-bottom: 20px;
     }
 	.box-testimonial{
     	width:80%;
